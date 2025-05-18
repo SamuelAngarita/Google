@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        
+        <title>Google Advanced Search</title>
+        
+        <!-- styles.css link -->
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    
+    <body>
+        
+        <!-- Google Logo Image -->
+        <img id="image" src="images/google-logo.png" alt="Google" title="Google" width="80">
+        
+        <!-- Link to Google Search -->
+        <h5 id="header">
+            <a href="index.html" title="Google Search">Back To Google Search</a>
+        </h5>
+        
+        <!-- Advanced Search Title -->
+        <h3>Advanced Search</h3>
+        
+        <!-- Line Separation -->
+        <hr>  
+        
+        <div>
+            <!-- Find pages with... label -->
+            <label> Find pages with...</label>
+            
+            <!-- Labels with their appropriate links and variables -->
+            <form id="form" action="https://www.google.com/search">
+                
+                <label >all these words:</label>
+                <input  type="text" name="as_q">
+                <br>
+                
+                <label >this exact word or phrase:</label>
+                <input  type="text" name="as_epq">
+                <br>
+                
+                <label >any of these words:</label>
+                <input  type="text" name="as_oq">
+                <br>
+                
+                <label >none of these words:</label>
+                <input  type="text" name="as_eq">
+                <br>
+                
+                <button id="button" type="submit">Advanced Search</button>
+            </form>
+        </div>
+    </body>  
+</html>
+
+

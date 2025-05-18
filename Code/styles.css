@@ -1,0 +1,117 @@
+/* Font For Pages */
+body{
+    font-family: sans-serif;
+}
+
+/* Google Search and Google Images Input */
+input[name="q"]{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 550px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    padding: 15px;
+    border: 1px solid #bfbfbf;
+    transition: transform 0.2s ease-in-out;
+}
+input[name="q"]:hover{
+    transform: scale(1.01);
+}
+
+/* Google Advanced Search Input */
+input:not([name="q"]){
+    width: 400px;
+    padding: 5px;
+}
+
+/* Styling for Links */
+h5{
+    text-align: right;
+    margin-bottom: 200px;
+}
+#header{
+    margin-bottom: 0px;
+}
+a{
+    padding: 10px;
+    color:#4d4d4d;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration:underline;
+}
+
+/* Google Logo Image */
+#img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+#image{
+    position: absolute;
+    padding-left: 10px;
+}
+
+/* Google Search Bar and Buttons */
+form{
+    text-align: center;
+}
+#form{
+    text-align:start;
+}
+.button{
+    padding: 8px;
+    width: 125px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #f2f2f2;
+    border-color: #f2f2f2;
+    border-radius: 5px;
+}
+.button:hover{
+    border-color: #bfbfbf;
+}
+#button{
+    padding: 8px;
+    width: 145px;
+    margin-left: 500px;
+    margin-right: 0px;/*  */
+    margin-top: 10px;
+    background-color: #3399ff;
+    border-color: #1a8cff;
+    border-radius: 5px;
+    color: white;
+}
+#button:hover{
+    background-color: #1a8cff;
+    border-color: #0080ff;
+}
+@media (max-width: 664px) {
+    #button {
+        margin-left: 270px;
+    }
+}
+
+/* Advanced Search Title */
+h3{
+    color: #e60000;
+    padding: 25px;
+}
+
+/* Advanced Search labels */
+label{
+    display: inline-block;
+    width: 200px;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
